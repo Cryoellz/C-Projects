@@ -2,7 +2,11 @@
 
 int main()
 {
-  int income, age, loan_amount;
+  int income, age, loan_amount; 
+//Conditions are Use conditions to check if the user meets the loan criteria:
+// Monthly income must be at least P15,000.
+// Age must be between 18 and 65.
+// Loan amount should not exceed 10 times the monthly income.
 
   printf("Enter monthly income: ");
   scanf("%d", &income);
@@ -24,3 +28,4 @@ int main()
 
   return 0;
 }
+
