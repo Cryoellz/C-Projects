@@ -8,12 +8,12 @@ float num1, num2;
       
       printf("Enter your desired second number: ");
       scanf("%f", &num2);
- 
+ //operations
    float sum = num1 + num2;
    float difference = num1 - num2;
    float product = num1 * num2;
    float quotient = num1 / num2;
-    
+ //output  
     printf("Sum: %.2f\n", sum);
     printf("Difference: %.2f\n", difference);
     printf("Product: %.2f\n", product);
