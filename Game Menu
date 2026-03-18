@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main()
+{
+  int choice;
+
+  do
+  {
+    printf("\n--- MAIN MENU ---\n");
+    printf("1. Play Game\n");
+    printf("2. Load Game\n");
+    printf("3. Exit\n");
+    printf("Enter your choice: ");
+
+    scanf("%d", &choice);
+
+    switch (choice)
+    {
+    case 1:
+      printf("\n[Action] Playing game... Good luck!\n");
+      break;
+    case 2:
+      printf("\n[Action] Loading game... Please wait.\n");
+      break;
+    case 3:
+      printf("\n[Action] Exiting. Goodbye!\n");
+      break;
+    default:
+
+      printf("\n[Error] Invalid choice. Please enter 1, 2, or 3.\n");
+    }
+
+  } while (choice != 3);
+
+  return 0;
+}
